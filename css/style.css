@@ -1,0 +1,68 @@
+/* CSS Propio */
+
+ /* Tipografía Principal */
+h1, h2, h3, h6, h4, h5, p, a, div, form, input, option, span, em, strong, button, input, optgroup, select, textarea { font-family: 'Montserrat', sans-serif; }
+
+#dropdown1 { width: 250px !important; top: 64px !important; height: auto !important; }
+
+.parallax-container { min-height: 90vh !important; }
+.parallax-container .section { padding-top: 20vh !important; }
+
+.parallax-container .parallax { background: rgb(0, 0, 0); }
+
+
+
+nav ul a,
+nav .brand-logo {
+  color: rgb(252, 252, 252);
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+
+
+
+
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
